@@ -5,32 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto:400,700" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+
   <title>Elle Carroll's links</title>
 
   <style>
-    * {
+    /* * {
       border: 1px red dashed;
-    }
+    } */
 
     html {
       min-height: 100%;
     }
 
-    body{
+    body {
       min-height: 100%;
       padding-top: 40px;
       padding-bottom: 40px;
-      background-image: url("https://images.unsplash.com/photo-1751738567832-aae9ddbf5dfa?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+      /* background-image: url("https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
       background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover; 
-      /* background: linear-gradient(90deg, #c4bdd7, #c3c5e3, #bfcdee, #b9d6f7, #b2dffe, #abe8ff, #a5f1ff, #a2faff); */
-
+      background-position: center;
+      background-size: cover;
+      background: linear-gradient(90deg, #050d27, #071831, #09203a, #092944, #0a334d, #0a3c56, #0b465f, #0d5067);
       color: rgba(255, 255, 255, 1.0);
+      font-family: 'Lora';
     }
-    
+
     a {
-      color: rgb(65, 71, 98);
+      color: rgba(255, 255, 255, 1.0);
+      text-decoration: none;
     }
 
 
@@ -48,40 +54,48 @@
     }
 
     .item {
-  background-color: rgba(199, 212, 241, 0.5);
-}
+      background-color: rgba(199, 212, 241, 0.5);
+      border-radius: 1000px;
+      padding: 5px;
+      padding-right: 53px;
+      box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+    }
 
-.main-container {
-  max-width: 640px;
-  margin: auto;
-}
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
 
-.image-row {
-  margin-bottom: 20px;
-  text-align: center;
-}
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
 
-.name-row {
-  margin-bottom: 30px;
-  text-align: center;
-}
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      font-weight: 900;
+    }
 
-.social-icons-row {
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: space-around;
-}
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
 
-.item {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-.link-text {
-  text-align: center;
-  flex-grow: 1;
-}
+    .item {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
 
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+      font-family: "Lora";
+    }
   </style>
 
 </head>
@@ -89,7 +103,7 @@
 <body>
   <div class="main-container">
     <div class="image-row">
-      <img class="avatar-image" src="/images/elle_head.jpeg" alt="Elle headshot"> 
+      <img class="avatar-image" src="/images/elle_head.jpeg" alt="Elle headshot">
     </div>
 
     <div class="name-row">
@@ -97,11 +111,17 @@
     </div>
 
     <div class="social-icons-row">
-      <a href="https://www.linkedin.com/in/donnellycarroll/" target="_blank">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/donnellycarroll/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
 
-      <a href="https://github.com/donnellycarroll" target="_blank">GitHub</a>
+      <a href="https://github.com/donnellycarroll" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
 
-      <a href="https://www.instagram.com/elles_the_don/" target="_blank">Instagram</a>
+      <a href="https://www.instagram.com/elles_the_don/" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
     </div>
 
     <div class="links-row">
@@ -114,7 +134,7 @@
       </div>
     </div>
 
-</div>
+  </div>
 
 </body>
 
